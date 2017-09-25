@@ -1,3 +1,3 @@
-p {
-  color: #777;
-}
+// when importing partial, leave off "_" and file extension
+@import "base/variables";
+@import "components/navigation"

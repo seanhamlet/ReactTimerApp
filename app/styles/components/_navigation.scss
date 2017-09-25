@@ -1,0 +1,17 @@
+// underscore means that scss knows that this is a partial file and that it will
+// be loaded in with other scss
+.top-bar, .top-bar ul {
+  background-color: $nav-background;
+}
+
+// same as .top-bar .menu-text
+.top-bar {
+  .menu-text {
+    color: $nav-text-color
+  }
+
+  .menu > .menu-text > a{
+    display: inline;
+    padding: 0;
+  }
+}
